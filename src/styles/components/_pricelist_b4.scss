@@ -367,6 +367,7 @@ $screen-xs-max: $screen-xs - 1 !default;
       box-shadow: -1px 0px 13px 0px rgba(100,100,100,0.75);
       color: $black;
       text-align:center;
+			min-height: 655px;
 
       h3{
         @extend #bundle-product-name;
@@ -588,7 +589,7 @@ $screen-xs-max: $screen-xs - 1 !default;
   }
 
 
-  .product-box-wrapper.most-popular{ margin-top:-20px; }
+  .product-box-wrapper.most-popular{ margin-top:-15px; }
   .most-popular{
 
     .percent-off{
