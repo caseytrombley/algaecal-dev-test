@@ -17,4 +17,18 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   };
   hideElementWhenZero('percent-off', 'data-total-savings-amount');
+
+  const fetchModalContent = (elementId, apiObj) => {
+    const copy = document.getElementById(elementId);
+    const url = 'https://www.algaecal.com/wp-json/acf/v3/options/options';
+    fetch(url)
+      .then(resp => resp.json())
+      .then((data) => {
+        copy.innerHTML = data.acf[apiObj];
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  };
+  fetchModalContent('guaranteeCopy', '7yr_full_copy');
 });
