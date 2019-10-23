@@ -827,5 +827,15 @@
     </div>
 </div>
 <script src="//fast.wistia.com/assets/external/E-v1.js" async></script>
+<script>
+  window._wq = window._wq || [];
+  _wq.push({ id: '_all', onReady: function(video) {
+      const playButton = document.getElementById('play-button-overlay-zwflowymel');
+      playButton.onclick = () => {
+        playButton.querySelector('.custom-wistia-play-button').style.display = 'none';
+        video.play();
+      }
+    }});
+</script>
 </body>
 </html>
