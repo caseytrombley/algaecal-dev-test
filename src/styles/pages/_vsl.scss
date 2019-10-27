@@ -616,6 +616,15 @@ section.vsl-step-boxes{
 		}
 	}
 }
+.call-center {
+	position: relative;
+	opacity: 1;
+	&.invisible {
+		transform: translateX(600px);
+		opacity: 0;
+	}
+	transition: transform 4s;
+}
 #guaranteeModal{
 	img.size-large {
 		width: 100%;
