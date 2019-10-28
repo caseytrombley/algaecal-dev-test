@@ -19,7 +19,7 @@ h2{
 
         &::after{
             content: '';
-            // background: url('/sp/assets/img/red-arrow.png') center center no-repeat;
+            // background: url('/src/assets/img/red-arrow.png') center center no-repeat;
             background-size: contain;
             display: block;
             width: 120px;
@@ -538,7 +538,7 @@ section.vsl-step-boxes{
 .vsl-references{
     .green-algae{
         color: white;
-        background: $algaecal-green url('/sp/assets/img/bg-algae-dark.png') center center;
+        background: $algaecal-green url('/src/assets/img/bg-algae-dark.png') center center;
         background-size: cover;
 
         .as-seen {
@@ -616,6 +616,13 @@ section.vsl-step-boxes{
 		}
 	}
 }
+.speak-to-our-bone-specialists {
+	opacity: 1;
+	&.invisible {
+		opacity: 0;
+	}
+	transition: opacity .3s ease-in-out;
+}
 #guaranteeModal{
 	img.size-large {
 		width: 100%;
@@ -663,7 +670,7 @@ section.vsl-step-boxes{
 .vsl-regular-supplements{
     @include media-breakpoint-down(sm){
         .header {
-            background: url(/sp/assets/img/background-green.jpg) no-repeat center center;
+            background: url(/src/assets/img/background-green.jpg) no-repeat center center;
             margin-left: -15px;
             margin-right: -15px;
 

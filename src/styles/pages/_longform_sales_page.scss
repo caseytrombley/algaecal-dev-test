@@ -82,14 +82,14 @@ ul.blue-checkmarks {
 
 section.introduction {
   color:$algaecal-bluegreen-dark;
-  background: url(/sp/assets/img/blue-bg-header.png)no-repeat top center;
+  background: url(/src/assets/img/blue-bg-header.png)no-repeat top center;
   background-size: cover;
   @extend .normal;
 
   h1 {
     font-size: 3.5rem;
     color: $algaecal-bluegreen-dark;
-    background: url(/sp/assets/img/redline.png)no-repeat 17% 95%;
+    background: url(/src/assets/img/redline.png)no-repeat 17% 95%;
     margin-top: 0;
     display: inline;
     line-height: 1.2;
@@ -296,7 +296,7 @@ section.green-white {
   }
   .arrow {
     position: relative;
-    background: url(/sp/assets/img/arrow-blue.png) no-repeat left;
+    background: url(/src/assets/img/arrow-blue.png) no-repeat left;
     background-size: cover;
     padding: 0 40px 0 150px;
     margin-top: 10px;
@@ -322,7 +322,7 @@ section.green-white {
     z-index: 1 !important;
   }
   .green-algae-bg {
-    background: url(/sp/assets/img/background-green.jpg) no-repeat center center;
+    background: url(/src/assets/img/background-green.jpg) no-repeat center center;
 
     h2 {
       padding:1.5em;
@@ -359,7 +359,7 @@ section.tv {
 }
 section.blue-blue {
 
-  background:$light-blue url(/sp/assets/img/faq.png) no-repeat top right;
+  background:$light-blue url(/src/assets/img/faq.png) no-repeat top right;
 
   h1,h2,h3,h4 {
     color:$algaecal-bluegreen-dark;
@@ -396,7 +396,7 @@ section.cyan-white {
   }
   .arrow {
     position: relative;
-    background: url(/sp/assets/img/arrow-blue.png) no-repeat left;
+    background: url(/src/assets/img/arrow-blue.png) no-repeat left;
     background-size: cover;
     padding: 0 40px 0 150px;
     margin-top: 10px;
@@ -418,7 +418,7 @@ section.cyan-white {
 }
 section.skeptical{
   .orange-box {
-    background:url(/sp/assets/img/background-orange.jpg) no-repeat;
+    background:url(/src/assets/img/background-orange.jpg) no-repeat;
     background-size:cover;
     padding:1.5em;
     h2 {
@@ -440,7 +440,7 @@ section.skeptical{
 }
 section.guarantee {
   .background {
-    background: url(/sp/assets/img/background-green.jpg) repeat center center;
+    background: url(/src/assets/img/background-green.jpg) repeat center center;
     padding:1.5em;
     margin:0em 4em;
     background-size: contain;
@@ -466,7 +466,7 @@ section.guarantee {
 }
 section.less-calcium {
   .blue-algae {
-    background: url(/sp/assets/img/background-blue.jpg) no-repeat center center;
+    background: url(/src/assets/img/background-blue.jpg) no-repeat center center;
     padding:1.5em;
     background-size: cover;
   }
@@ -709,7 +709,7 @@ footer {
     height: auto;
   }
   section.m-introduction {
-    background: url(/sp/assets/img/background-green.jpg) no-repeat center center;
+    background: url(/src/assets/img/background-green.jpg) no-repeat center center;
     h1,h2,h3 {
       color:$white!important;
     }
@@ -891,7 +891,7 @@ section.compare .compareTable .row .cell:nth-child(3), section.compare .compareT
 .thankyoubg {
   padding: 70px 0 110px;
   background-color: #f8faf2;
-  background-image: url('/sp/assets/img/couple1.jpg');
+  background-image: url('/src/assets/img/couple1.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
@@ -915,7 +915,7 @@ section.compare .compareTable .row .cell:nth-child(3), section.compare .compareT
 .newsletter-ladies-banner{
   @extend .thankyoubg;
 
-  background-image: url('/sp/assets/img/newsletter-banner-ladies-DK-v2.jpg');
+  background-image: url('/src/assets/img/newsletter-banner-ladies-DK-v2.jpg');
   background-color: #fff;
   background-position: right bottom;
   height: 395px;
@@ -927,7 +927,7 @@ section.compare .compareTable .row .cell:nth-child(3), section.compare .compareT
   }
 
   @include media-breakpoint-down(xs) {
-    background-image: url('/sp/assets/img/newsletter-banner-ladies-MB.jpg');
+    background-image: url('/src/assets/img/newsletter-banner-ladies-MB.jpg');
     height: 170px;
 
     h1{

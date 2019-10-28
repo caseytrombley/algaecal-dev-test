@@ -655,7 +655,7 @@ $screen-xs-max: $screen-xs - 1 !default;
     .ontop {
       display: inline;
       line-height: inherit;
-      background: url(/sp/assets/img/redline.png) repeat-x 0 50%;
+      background: url(/src/assets/img/redline.png) repeat-x 0 50%;
       padding-bottom: 0;
       position: absolute;
       z-index: 9999;
@@ -892,7 +892,7 @@ $header-height: 100px;
   width: 209px;
   line-height: 2;
   color: #666;
-  background: url('/sp/assets/img/redline.png') no-repeat 48% 82%;
+  background: url('/src/assets/img/redline.png') no-repeat 48% 82%;
   background-size: 145px 8px;
 }
 

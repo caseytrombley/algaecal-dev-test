@@ -11,7 +11,7 @@ header{
 .underline-red {
   display: inline;
   line-height: 1.2;
-  background: url(/sp/assets/img/redline.png) repeat-x 0 95%;
+  background: url(/src/assets/img/redline.png) repeat-x 0 95%;
   padding-bottom: 8px;
   position: relative;
   background-size: contain;
@@ -175,7 +175,7 @@ header{
   padding-top: 36px!important;
 }
 .redline-big{
-  background:url(/sp/assets/img/redlinebig.png) no-repeat center 99%;
+  background:url(/src/assets/img/redlinebig.png) no-repeat center 99%;
 }
 .green-bottom{
   border-bottom: 2px solid $algaecal-green-dark;

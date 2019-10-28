@@ -24,7 +24,7 @@ div.most-popular-arrow-wrap {
     right: -72px;
     top: 2px;
     display: block;
-    background: no-repeat url('/sp/assets/img/arrow-tall-red.png');
+    background: no-repeat url('/src/assets/img/arrow-tall-red.png');
     background-size: contain;
   }
 
@@ -74,14 +74,14 @@ ul.credit-card-logos{
 .red-underline{
   display: inline;
   //line-height: 1.2;
-  background: url(/sp/assets/img/redline.png) repeat-x 0 80%;
+  background: url(/src/assets/img/redline.png) repeat-x 0 80%;
   padding-bottom: 8px;
   position: relative;
 }
 .yellow-underline{
   display: inline;
   line-height: 1.2;
-  background: url(/sp/assets/img/yellowline.png) repeat-x 0 95%;
+  background: url(/src/assets/img/yellowline.png) repeat-x 0 95%;
   padding-bottom: 8px;
   position: relative;
 }
