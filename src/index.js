@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
   loadSVGs();
 
   const apiUrl = 'https://www.algaecal.com/wp-json/acf/v3/options/options';
-  const callCenterDiv = document.getElementsByClassName('call-center')[0];
+  const callCenterDiv = document.getElementsByClassName('speak-to-our-bone-specialists')[0];
   callCenterDiv.classList.add('invisible');
 
   const fetchModalContent = (elementId, apiObj) => {
