@@ -551,7 +551,76 @@ section.vsl-step-boxes{
         }
     }
 }
+.vsl-guarantee{
+	.img-guarantee-seal{
+		position: relative;
+		top: -10px;
+	}
+	.img-signature{
+		position: relative;
+		top: -10px;
+	}
+	.row {
+		margin: 0;
+		&.display-block {
+			display: block;
+			flex-wrap: nowrap;
+		}
+		@include media-breakpoint-up(md) {
+			margin-right: -15px;
+			margin-left: -15px;
+		}
 
+	}
+	&-body{
+		font-size: .9rem;
+		&.row{
+			@include media-breakpoint-up(xl) {
+				margin-right: 10rem;
+				margin-left: 10rem;
+			}
+		}
+	}
+	&-footer{
+		[class^="col-"] {
+			&:nth-child(1), &:nth-child(2){
+				@include media-breakpoint-down(xs) {
+					max-width: 50%;
+					flex: 0 0 50%;
+					padding-left: 0;
+				}
+			}
+			&:last-child{
+				@include media-breakpoint-down(xs) {
+					max-width: 100%;
+					flex: 0 0 100%;
+					margin: 15px 0 0;
+					padding: 0 15px;
+					background: #f2f2f2;
+				}
+			}
+		}
+		&.container{
+			@include media-breakpoint-up(lg) {
+				padding: 0 10%;
+			}
+		}
+		.span-list{
+			text-align: left;
+			span{
+				display: block;
+				&:first-child{
+					font-weight: bold;
+				}
+			}
+		}
+	}
+}
+#guaranteeModal{
+	img.size-large {
+		width: 100%;
+	}
+}
 .vsl-superfood{
     padding: 1.5rem 1rem 0.5rem;
 
