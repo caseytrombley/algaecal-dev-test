@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const officeHours = data.acf.office_hours;
         const dateDayNumber = new Date().getDay();
         const officeHoursFormatted = officeHours.map((obj, i) => ({ ...obj, day: i }));
-        const convertTimezone = DateTime.local().setZone('America/New_York').toString();
+        const convertTimezone = DateTime.local().setZone('America/Los_Angeles').toString();
         const timeNow = () => {
           const d = new Date(convertTimezone);
           const h = (d.getHours() < 10 ? '0' : '') + d.getHours();
